@@ -1,0 +1,16 @@
+title: Multiple Failed Login Attempts
+id: 003
+status: experimental
+
+description: Detects potential brute force login activity
+author: Sarah Arkam
+
+logsource:
+  product: windows
+
+detection:
+  selection:
+    EventID: 4625
+  condition: selection
+
+level: high
