@@ -1,3 +1,9 @@
 title: Suspicious Login
 id: 001
 status: experimental
+
+description: Detects suspicious login activity
+author: Sarah Arkam
+
+logsource:
+  product: windows
