@@ -13,3 +13,6 @@ jobs:
 
       - name: List Detection Files
         run: ls sigma
+
+      - name: Count Detection Rules
+        run: ls sigma/*.yml | wc -l
