@@ -10,3 +10,7 @@ logsource:
 
 detection:
   selection:
+      EventID: 4625
+  condition: selection
+
+level: medium
