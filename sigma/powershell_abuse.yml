@@ -1,0 +1,16 @@
+title: Suspicious PowerShell Execution
+id: 002
+status: experimental
+
+description: Detects PowerShell activity
+author: Sarah Arkam
+
+logsource:
+  product: windows
+
+detection:
+  selection:
+    Image: '*powershell.exe'
+  condition: selection
+
+level: medium
