@@ -7,3 +7,6 @@ author: Sarah Arkam
 
 logsource:
   product: windows
+
+detection:
+  selection:
