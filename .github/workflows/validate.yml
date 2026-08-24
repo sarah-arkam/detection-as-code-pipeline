@@ -6,10 +6,10 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    
-        steps:
+
+    steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        
+
       - name: List Detection Files
         run: ls sigma
